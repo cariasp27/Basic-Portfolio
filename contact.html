@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <html lang="en">
         <head>
-            <title>Get to Know Me</title>
+            <title>Contact Me!</title>
             <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         </head>
 
@@ -12,9 +12,11 @@
                             <h1>Paul Carias</h1>
                     </div>
                     <div id="Buttons">
-                            <button type="button">About Me</button>
-                            <button type="button">Portfolio</button>
-                            <button type="button">Contact Me</button>
+                            <div class="btn-group">
+                                    <button class="button" onclick="window.location.href='index.html'">About Me</button>
+                                    <button class="button" onclick="window.location.href='portfolio.html'" >Portfolio</button>
+                                    <button class="button" onclick="window.location.href='contact.html'">Contact Me</button>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -24,10 +26,25 @@
                     <div id="aboutmeh">
                         <h2>Contact Me</h2>
                     </div><hr />
+                    <div id="forms">
+                            <form>
+                                First name:<br>
+                                <input type="text" name="firstname">
+                                <br>
+                                Last name: <br>
+                                <input type="text" name="lastname">
+                                <br>
+                                Message:<br>
+                                <textarea name="Text1" cols="75" rows="5"></textarea><br>
+                                <input type="submit" name="submit" style="background-color: #4aaaa5; border: none; height: 25px; width: 75px; color: #dddddd; font-family: 'Times New Roman', Times, serif">
+                                </form>
+                    </div>
 
                 </div>
             </div>
-
+            <footer class="footer">
+                    Copyright
+                </footer>
             
         </body>
 

@@ -37,14 +37,28 @@ body        {   margin: 0px;
                 padding: 10px;
             }
 
+#photolinks {   height: 600px;
+            }
+
 #PaulPic    {
                 float: left;
                 padding: 10px;
+                margin-bottom: 0px;
+                clear: both;
             }
             
 #themain    {
                 background-color: #ffffff;
                 width: 960px;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 5px 10px 8px grey;
+            }
+
+#content    {
+                background-color: #ffffff;
+                width: 960px;
+                height: 1000px;
                 margin-left: auto;
                 margin-right: auto;
                 box-shadow: 5px 10px 8px grey;
@@ -63,18 +77,21 @@ hr          {
                 margin-right: auto;
                 z-index: 5;
             }
+
 #Buttons    {
                 height: 100px;
                 padding-top: 50px;
                 width: 400px;
                 float: right;
             }
+
 .btn-group  {
                 height: 100px;
                 width: 250px;
                 float: right;
 
-            } 
+            }
+
 .button     {   
                 background-color: #ffffff; /* Green */
                 border: 1px gray;
@@ -88,4 +105,44 @@ hr          {
                 text-align: right;
                 margin: 0;   
             }
-.button:hover   {background-color: #dddddd}
+
+.button:hover   
+            {   
+                background-color: #dddddd;
+            }
+
+.footer     {       position: sticky;
+                    bottom: 0;
+                    text-align: center;
+                    height: 25px;
+                    background-color: #666666;
+                    z-index: 5;  
+            }
+
+#linked     {  
+                color: #0077b5; 
+            }
+
+#right      {
+                width: 160px;
+                position: relative;
+                z-index: 2;
+                left: 200px;
+                top: -550px;
+            }
+
+#left       {   
+                width: 160px;
+                margin-right: 0px;
+            }
+
+.wrapper    {
+                height: 25px;
+                background-color: #4aaaa5;
+                position: relative;
+                bottom: 50px;
+                text-align: center;
+                color: #dddddd;
+                opacity: .9;
+
+            }
